@@ -1,0 +1,32 @@
+.popular-movies {
+  background-color: rgba(0, 15, 75, 0.781);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.movies-heading {
+  padding-left: 25px;
+  color: rgb(5, 5, 35);
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.hide-btn {
+  text-align: center;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

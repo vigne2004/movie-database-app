@@ -1,0 +1,88 @@
+.movie-page {
+  min-height: 100vh;
+  background-color: rgba(0, 15, 75, 0.781);
+  padding: 10px;
+}
+
+.movie-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.poster {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.movie-content {
+  width: 65%;
+}
+
+.movie-heading {
+  color: aliceblue;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.rating {
+  color: rgb(168, 181, 192);
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.duration {
+  color: rgb(168, 181, 192);
+  font-size: 18px;
+}
+
+.genre-list {
+  list-style: square;
+  color: rgb(168, 181, 192);
+}
+
+.release-date {
+  color: rgb(168, 181, 192);
+  font-size: 18px;
+}
+
+.movie-overview {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.cast-heading {
+  color: rgb(5, 5, 35);
+  margin-left: 10px;
+}
+
+.cast-list-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .poster {
+    width: 40%;
+  }
+  .movie-content {
+    width: 55%;
+  }
+  .movie-heading {
+    font-size: 30px;
+  }
+  .duration,
+  .rating,
+  .genre-list,
+  .release-date,
+  .movie-overview {
+    font-size: 15px;
+  }
+}

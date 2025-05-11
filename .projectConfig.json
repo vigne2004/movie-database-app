@@ -1,1 +1,8 @@
-{"ignoredFilesOrFolders":[],"openFiles":["movieDatabaseApp/.git/HEAD","movieDatabaseApp/.git/description"],"fileToBeOpened":"movieDatabaseApp/.git/config"}
+{
+  "ignoredFilesOrFolders": [],
+  "openFiles": [
+    "movieDatabaseApp/.git/HEAD",
+    "movieDatabaseApp/.git/description"
+  ],
+  "fileToBeOpened": "movieDatabaseApp/.git/config"
+}

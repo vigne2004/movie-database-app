@@ -1,0 +1,18 @@
+.cast-img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.list-cont {
+  box-sizing: border-box;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.org-name {
+  font-size: 10px;
+}
+.name {
+  font-size: 10px;
+}
