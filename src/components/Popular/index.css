@@ -30,3 +30,14 @@
   justify-content: center;
   width: 100%;
 }
+
+
+.pagination-cont {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
